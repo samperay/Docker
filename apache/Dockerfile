@@ -15,4 +15,5 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV LANG C
 # Apache process to run at background
 CMD ["/usr/sbin/apache2","-D","FOREGROUND"]
+# Listen to port 80
 EXPOSE 80
