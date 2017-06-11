@@ -10,5 +10,6 @@ RUN echo 'root:password' | chpasswd
 RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 #copy config file to container
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+# Listen to port 22 and 80
 EXPOSE 22 80
 CMD ["/usr/bin/supervisord"]
