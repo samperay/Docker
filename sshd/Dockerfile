@@ -1,6 +1,6 @@
 #Base image of Oracle Linux 6
 FROM oraclelinux:6
-MAINTAINER sunil <sunil.amperayani@oracle.com>
+MAINTAINER sunil <sunlnx@gmain.com>
 
 # Install openssh 
 RUN yum clean all && yum install -y openssh-server shadow-utils
