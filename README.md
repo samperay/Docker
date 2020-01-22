@@ -1,6 +1,7 @@
-# Dockerfiles
+# Docker
 
-**Dockerfile for building containers to start applications**
+This repository consists of two dirs 
 
-**You find any "docker-compose.yml" use compose tool for defining and runing multiple-container Docker application. Create and start from your configuration using single command.
-"docker-compose up"
+**docker-files** - this contains *Dockerfile* for applications or services
+
+**docker-compose-files** - Two or more services which needs to be built using containers can be found here
