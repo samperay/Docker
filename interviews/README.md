@@ -5,6 +5,6 @@ Would be adding references where ever if required.
 
 https://www.bogotobogo.com/DevOps/Docker/
 
-- Docker Introduction
-- Docker networking
-- Docker Storage
+* Docker Introduction
+ * hello world
+ * nginx webserver file/share/copy/Dockerfile
