@@ -14,3 +14,4 @@ https://www.bogotobogo.com/DevOps/Docker/
  * nginx webserver(nginx.md)
  * Docker images & CLI(image_cli.md)
  * Docker Networking(networking.md)
+ * Docker Storage(storage.md)
