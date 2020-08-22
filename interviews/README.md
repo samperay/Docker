@@ -1,10 +1,16 @@
-# Interviews
+# Docker Study Guide
 
-Contains interview questions and solutions.
-Would be adding references where ever if required.
+This folder could be helpful in understanding docker and helps solving interviews on the Docker and Kubernetes.
+
+# Pre-requisite
+- Linux machine on any platform (physical/VM/Cloud)
+- Docker installed
+- Access to public docker hub repository
 
 https://www.bogotobogo.com/DevOps/Docker/
 
 * Docker Introduction
- * hello world
- * nginx webserver file/share/copy/Dockerfile
+ * hello world(helloworld.md)
+ * nginx webserver(nginx.md)
+ * Docker images & CLI(image_cli.md)
+ * Docker Networking(networking.md)
