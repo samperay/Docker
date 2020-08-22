@@ -35,6 +35,17 @@ docker container  rm $(docker ps -a -q)
 docker rmi $(docker images -q)
 ```
 
+## Remove dangling system resources
+
+- all stopped containers
+- all networks not used by at least one container
+- all dangling images
+- all dangling build cache
+
+```
+docker system prune
+```
+
 ## docker CLI reference
 https://docs.docker.com/engine/reference/commandline/docker/
 
