@@ -16,4 +16,12 @@ https://www.bogotobogo.com/DevOps/Docker/
  * Docker Networking(networking.md)
  * Docker Storage(storage.md)
  * Docker Linking(links.md)
- * Dockerfile
+
+# Dockerfile
+ * Dockerfile Intro
+
+## Dockerfile applications
+All the examples are located at *dockerfiles*
+ * Apache Tomcat
+ * elk
+ * simpleapps(flask,httpd,nginx)
