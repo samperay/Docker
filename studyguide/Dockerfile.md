@@ -204,5 +204,3 @@ who defines which process should be running inside a container?
 CMD tells the Docker which program shoud be run when the container starts.
 
 Difference between the CMD and ENTRYPOINT with related to the supplied to the "docker run" command. While the CMD will be completely over-written by the supplied command (or args), for the ENTRYPOINT, the supplied command will be appended to it.
-
-e.g
