@@ -6,4 +6,4 @@ This repository consists of two dirs
 
 **dockercompose** - Two or more services which needs to be built using containers.
 
-**interviews** - Contains materials/questions/references related to dockers.
+**studyguide** - Study guide for Dockers.
