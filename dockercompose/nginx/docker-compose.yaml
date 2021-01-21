@@ -1,11 +1,13 @@
-version: '2'
-  # docker run -d -p 8080:80 -v $(pwd)/website:/usr/share/nginx/html customnginx
-  #
+# Create custom nginx if not found, buildup and running
 
-services:
+version: '2'
+services: 
   nginx:
+    build: 
+      context: .
+      dockerfile: Dockerfile
     image: customnginx
-    volumes:
+    ports: 
+      - "8080:80"
+    volumes: 
       - ./website:/usr/share/nginx/html
-    ports:
-      - '8080:80'
