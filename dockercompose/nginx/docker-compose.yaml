@@ -1,0 +1,11 @@
+version: '2'
+  # docker run -d -p 8080:80 -v $(pwd)/website:/usr/share/nginx/html customnginx
+  #
+
+services:
+  nginx:
+    image: customnginx
+    volumes:
+      - ./website:/usr/share/nginx/html
+    ports:
+      - '8080:80'
